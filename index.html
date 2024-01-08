@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .a1 {
+        display: flex;
+    }
+    
+    .a2 {
+        padding-left: 300px;
+        padding-top: 35px;
+    }
+    
+    .a3 {
+        color: blue;
+        padding-left: 100px;
+        text-decoration: underline;
+    }
+    
+    .a2 a {
+        padding-left: 8px;
+        color: blue;
+        text-decoration: none;
+    }
+    
+    .a5 {
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+    
+    .a6 {
+        font-size: 20px;
+    }
+    
+    .a7 {
+        display: flex;
+    }
+    
+    .a8 {
+        margin-top: 50px;
+        border-radius: 80px 80px 80px;
+        border: 3px solid blue;
+        margin-left: 100px;
+    }
+    
+    .a9 {
+        text-align: center;
+    }
+    
+    .b3 {
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+    
+    .b5 {
+        color: blue;
+    }
+    
+    .b6 {
+        display: flex;
+    }
+    
+    .b8 {
+        text-align: center;
+        padding-top: 25px;
+    }
+    
+    .b9 {
+        color: blue;
+    }
+    
+    .c1 {
+        margin-left: 440px;
+        margin-top: 30px;
+        height: 50px;
+        width: 130px;
+        border-radius: 30px;
+        background-color: blue;
+        color: beige;
+    }
+    
+    .c1:hover {
+        background-color: blueviolet;
+    }
+    
+    .c3 {
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+    
+    .c2 {
+        display: flex;
+        margin-top: 50px;
+        background-color: rgb(242, 238, 238);
+        height: 350px;
+        padding-top: 50px;
+    }
+    
+    .c5 {
+        border-radius: 50%;
+        border: 3px solid blue;
+        margin-left: 100px;
+    }
+    
+    .c6 {
+        border-radius: 50%;
+        border: 3px solid blue;
+        margin-top: 120px;
+        margin-right: 50px;
+    }
+    
+    .c7 {
+        height: 40px;
+        width: 100px;
+        margin-top: 20px;
+        background-color: blue;
+        color: beige;
+    }
+    
+    .c7:hover {
+        background-color: blueviolet;
+    }
+    
+    .c8 {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    
+    .c9 {
+        display: flex;
+        padding-top: 30px;
+    }
+    
+    .c10 {
+        margin-left: 100px;
+        width: 250px;
+        padding-top: 30px;
+    }
+    
+    .d1 {
+        margin-left: 100px;
+    }
+    
+    .d2 {
+        margin-left: 100px;
+    }
+    
+    .d4 {
+        margin-left: 180px;
+    }
+    
+    .d5 {
+        display: flex;
+        background-color: rgb(242, 238, 238);
+        margin-top: 30px;
+        box-shadow: 0px 0px 4px gray, 0px 0px 8px black, 0px 0px 12px gray;
+        height: 400px;
+    }
+    
+    .d6 {
+        padding-left: 100px;
+        padding-top: 30px;
+    }
+    
+    .d7 {
+        height: 25px;
+        width: 250px;
+    }
+    
+    .d8 {
+        height: 25px;
+        width: 250px;
+        margin-top: 20px;
+    }
+    
+    .d9 {
+        margin-top: 30px;
+        height: 30px;
+        width: 100px;
+        background-color: blue;
+        color: beige;
+    }
+    
+    .d9:hover {
+        background-color: blueviolet;
+    }
+    
+    .d10 {
+        padding-left: 250px;
+        padding-top: 40px;
+    }
+    
+    .d11 {
+        padding-right: 40px;
+    }
+    
+    .e1 {
+        padding-top: 30px;
+    }
+    
+    .e2 {
+        display: flex;
+        padding-left: 50px;
+    }
+    
+    .e3 {
+        padding-top: 13px;
+        padding-left: 5px;
+        color: beige;
+    }
+    
+    .e4 {
+        display: flex;
+    }
+    
+    .e5 {
+        padding-top: 15px;
+        padding-left: 7px;
+        color: beige;
+    }
+    
+    .e6 {
+        padding-top: 30px;
+    }
+    
+    .e7 {
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+    
+    .f1 {
+        display: flex;
+        margin-top: 40px;
+    }
+    
+    .f2 {
+        margin-left: 80px;
+        height: 30px;
+        width: 250px;
+    }
+    
+    .f4 {
+        background-color: rgb(16, 16, 16);
+        height: 300px;
+        margin-top: 30px;
+    }
+    
+    .e1 {
+        border: 1px solid black;
+    }
+    
+    .f6 {
+        padding-left: 600px;
+        padding-top: 30px;
+    }
+</style>
+
+<body>
+    <div class="a1">
+        <div>
+            <h1 class="a3">Electronic</h1>
+        </div>
+        <nav class="a2">
+            <a href=""> <b>HOME </b></a>
+            <a href=""> <b>ABOUT </b></a>
+            <a href=""><b>CONTACT</b></a>
+            <a href=""><b>SERVICE</b></a>
+            <a href=""> <b>BLOG</b></a>
+        </nav>
+    </div>
+    <div class="a7">
+
+        <div class="a5">
+            <h1>ELECTRICAL <br>SERVICE <br> PROVIDERS
+            </h1>
+            <div>
+                <p class="a6">It is a long established fact that a reader <br>will be distracted by the readable content <br>of a page when looking at its layout. <br>The point of using Lorem
+                </p>
+            </div>
+        </div>
+        <div>
+            <img class="a8" src="elc1.jpg" alt="" height="250px" width="400px">
+        </div>
+
+    </div>
+    <div>
+        <h1 class="a9">
+            Our Service
+        </h1>
+
+    </div>
+    <div class="b6">
+        <div class="b3">
+            <img src="elc1.jpg" alt="" height="200px" width="350px">
+            <div class="b5">
+                <h1>Equipment installation</h1>
+            </div>
+            <div class="b4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Necessitatibus saepe voluptates sapiente natus, <br> expedita cumque,
+            </div>
+
+
+        </div>
+        <div class="b3">
+            <img src="elc1.jpg" alt="" height="200px" width="350px">
+            <div class="b5">
+                <h1>Equipment installation</h1>
+            </div>
+            <div class="b4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Necessitatibus saepe voluptates sapiente natus, <br> expedita cumque,
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="b6">
+        <div class="b3">
+            <img src="mm.jfif" alt="" height="200px" width="350px">
+            <div class="b5">
+                <h1>Equipment installation</h1>
+            </div>
+            <div class="b4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Necessitatibus saepe voluptates sapiente natus, <br> expedita cumque,
+            </div>
+
+
+        </div>
+        <div class="b3">
+            <img src="mm.jfif" alt="" height="200px" width="350px">
+            <div class="b5">
+                <h1>Equipment installation</h1>
+            </div>
+            <div class="b4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Necessitatibus saepe voluptates sapiente natus, <br> expedita cumque,
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="b8">
+        <img src="elc1.jpg" alt="" height="200px" width="350px">
+        <div class="b9">
+            <h1>Equipment installation</h1>
+        </div>
+        <div class="b10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Necessitatibus saepe voluptates sapiente natus, <br> expedita cumque,
+        </div>
+
+
+    </div>
+    <div>
+        <button class="c1"> Read More</button>
+    </div>
+    <div class="c2">
+        <div class="c3">
+            <h1>
+                About Us
+            </h1>
+            <p class="c4">
+                Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, <br> sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Utenim ad minim veniam, quis nostrud exercitation ullamco <br> laborisnisi ut aliquip ex ea commodo
+                consequat. <br> Duis aute irure dolorin reprehenderit in voluptate velit
+            </p>
+            <div>
+                <button class="c7">Read More</button>
+            </div>
+        </div>
+        <img class="c5" src="mhm.jpg" alt="" height="190px" width="190px">
+        <div>
+            <img class="c6" src="mm.jfif" alt="" height="160px" width="160px">
+        </div>
+    </div>
+
+    <div class="c8">
+        <b> Blog</b>
+    </div>
+    <div class="c9">
+        <div class="g1">
+            <img class="c10" src="bulb.jfif" alt="">
+            <div class="d1">
+                <h3>Blog Title Goes Here</h3>
+            </div>
+            <div class="d2">
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. <br>Commodi repellendus reprehenderit ar <br>chitecto culpa autem? <br>Excepturi recusandae adipisci aspernatur <br>minus nihil tempore ab <br> magnam eaque, quod qui voluptatem
+                    cum, <br> optio libero!
+                </p>
+            </div>
+        </div>
+        <div class="d4">
+            <img class="c10" src="bulb.jfif" alt="">
+            <div class="d1">
+                <h3>Blog Title Goes Here</h3>
+            </div>
+            <div class="d2">
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. <br>Commodi repellendus reprehenderit ar <br>chitecto culpa autem? <br>Excepturi recusandae adipisci aspernatur <br>minus nihil tempore ab <br> magnam eaque, quod qui voluptatem
+                    cum, <br> optio libero!
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="d5">
+        <div class="d6">
+            <h1>
+                Contact Us
+            </h1>
+            <div>
+                <input class="d7" type="text" placeholder="Name">
+
+            </div>
+            <div>
+                <input class="d8" type="text" placeholder="Email">
+            </div>
+            <div>
+                <input class="d8" type="text" placeholder="Phone Number">
+            </div>
+            <div>
+                <input class="d8" type="text" placeholder="Message">
+            </div>
+            <div>
+                <button class="d9"> SEND </button>
+            </div>
+        </div>
+        <div class="d10">
+            <h2>Avinash Pal</h2>
+            <div class="d11">
+                <p>Google Maps Platform rejcted your request. <br> This API Project is not <br> authorized to use this API.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="f4">
+        <div class="e7">
+            <div class="e4">
+                <div class="e2">
+                    <img class="e1" src="w icon.jfif" alt="" height="20px">
+                    <p class="e3">Passages of Lorem Ipsum available</p>
+                </div>
+                <div class="e2">
+                    <img class="e6" src="phon.jfif" alt="" height="18px">
+                    <p class="e5"> Call: + 017770876867</p>
+                </div>
+                <div class="e2">
+                    <img class="e6" src="mam.jfif" alt="" height="18px">
+                    <p class="e5"> mail@domain.com</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div>
+            <div class="f1">
+                <input class="f2" type="text" placeholder="Enetr your mail">
+                <input class="f3" type="text" placeholder=" SUBSCRIBE">
+            </div>
+            <div>
+                <img class="f6" src="logo.png" alt="" height="70px">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
